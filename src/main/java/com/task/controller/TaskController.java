@@ -78,7 +78,6 @@ public class TaskController {
 		//delete task from DB
 		tasksservice.deleteTaskByID(id);
 		return new ResponseEntity<String>("Task has been deleted successfully", HttpStatus.OK);
-		
 	}
 }
 
